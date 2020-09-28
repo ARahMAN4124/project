@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background: rgba(15, 14, 14, 0.781);
+}
+#header-head {
+  background-image: url(../images/bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#header-head p {
+  line-height: 20px;
+}
+#header-head button {
+  border: 2px solid red;
+  margin-left: 2rem;
+  margin: 0 auto;
+}
+
+#book {
+  background: rgb(241, 241, 241);
+}
+#team img {
+  margin-top: -80px;
+}
+#team .card {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+#team .card:hover {
+  background: #17a2b8;
+}
+#team .card h4 {
+  color: #17a2b8;
+}
+#team .card:hover h4,
+#team .card:hover p,
+#team .card:hover .team-link-icon {
+  color: #ffffff;
+}
+#team .card .team-link-icon {
+  font-size: 25px;
+  color: #17a2b8;
+}
+#scroll {
+  position: fixed;
+  right: 0;
+  padding: 3rem;
+  bottom: 0;
+}
+
+#team .card @media (max-width: 575px) {
+  #header-head h1 {
+    font-size: 60px;
+  }
+}
